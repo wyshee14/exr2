@@ -6,8 +6,8 @@ unsigned char swap_bits(unsigned char octet)
 #include <stdio.h>
 int main()
 {
-    unsigned char input = '8';
-    unsigned char swap = swap_bits(input);
+    //unsigned char input = '8';
+    unsigned char swap = swap_bits(8);
     int i = 8;
     while (i--)
     {

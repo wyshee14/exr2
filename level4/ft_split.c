@@ -16,14 +16,14 @@ int count_words(char *str)
 		{
 			is_word = 0;
 		}
-		if((str[i] != ' ' || str[i] != '\t' || str[i] != '\n') && is_word == 0)
+		if ((str[i] != ' ' || str[i] != '\t' || str[i] != '\n') && is_word == 0)
 		{
 			counter++;
 			is_word = 1;
 		}
 		i++;
 	}
-	return(counter);
+	return (counter);
 }
 
 int count_len(char *str, int start)
@@ -47,7 +47,7 @@ char	*put_words(char *str, int *start)
 
 	j = 0;
 	word_len = count_len(str, *start);
-	word = (char *)malloc(sizeof(char) * word_len);
+	word = (char *)malloc(sizeof(char) * word_len + 1);
 	if (!word)
 		return (NULL);
 	while (j < word_len)

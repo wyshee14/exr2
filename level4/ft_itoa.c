@@ -54,7 +54,7 @@ char	*ft_itoa(int nbr)
 		return (res);
 	}
 	res[len] = '\0';
-	put_digits(res, n, len -1);
+	put_digits(res, n, len - 1);
 	return (res);
 }
 
