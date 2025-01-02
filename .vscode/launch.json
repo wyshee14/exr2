@@ -4,12 +4,13 @@
 	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
 	"version": "0.2.0",
 	"configurations": [
+
 		{
 			"name": "(gdb) Launch",
 			"type": "cppdbg",
 			"request": "launch",
-			"program": "/home/wshee/42/exr2/level4/flood_fill/a.out",
-			"args": [],
+			"program": "/home/wshee/42/exr2/level4/rev_wstr",
+			"args": ["You hate people! But I love gatherings. Isn't it ironic?"],
 			"stopAtEntry": false,
 			"cwd": "${fileDirname}",
 			"environment": [],
